@@ -1,0 +1,22 @@
+<div class="navbar navbar-expand-lg bg-light navbar-light">
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand">DevFolio</a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto">
+                        <a href="{{ route('home')}}" class="nav-item nav-link active">Home</a>
+                        <a href="{{ route('about.me')}}" class="nav-item nav-link">About</a>
+                        <!-- <a href="#service" class="nav-item nav-link">Service</a> -->
+                        <!-- <a href="#experience" class="nav-item nav-link">Experience</a> -->
+                        <a href="{{ route('projects')}}" class="nav-item nav-link">Projects</a>
+                        <!-- <a href="#review" class="nav-item nav-link">Review</a>
+                        <a href="#team" class="nav-item nav-link">Team</a>
+                        <a href="#blog" class="nav-item nav-link">Blog</a> -->
+                        <a href="{{ route('contact')}}" class="nav-item nav-link">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
