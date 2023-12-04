@@ -5,57 +5,6 @@
 
 @section('content')
 
-<div class="about wow fadeInUp" data-wow-delay="0.1s" id="about">
-            <div class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="about-img">
-                            <img style="height: 50%; width: 60%" src="{{ asset('assets/img/mehedi2.jpg')}}" alt="Image">
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="about-content">
-                            <div class="section-header text-left">
-                                <p>Learn About Me</p>
-                                <h2>10 Years Experience</h2>
-                            </div>
-                            <div class="about-text">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida
-                                </p>
-                            </div>
-                            <div class="skills">
-                                <div class="skill-name">
-                                    <p>Web Design</p><p>85%</p>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <div class="skill-name">
-                                    <p>Web Development</p><p>95%</p>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <div class="skill-name">
-                                    <p>Apps Design</p><p>90%</p>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <div class="skill-name">
-                                    <p>Apps Development</p><p>85%</p>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <a class="btn" href="">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         <!-- About End -->
         
         
@@ -135,9 +84,9 @@
                 <div class="timeline">
                     <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
                         <div class="timeline-text">
-                            <div class="timeline-date">2045 - 2050</div>
+                            <div class="timeline-date">2020 - 2021</div>
                             <h2>Web Developer</h2>
-                            <h4>Soft Agency, San Francisco, CA</h4>
+                            <h4>antbd</h4>
                             <p>
                                 Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
                             </p>
@@ -145,9 +94,9 @@
                     </div>
                     <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
                         <div class="timeline-text">
-                            <div class="timeline-date">2045 - 2050</div>
-                            <h2>Web Developer</h2>
-                            <h4>Soft Agency, San Francisco, CA</h4>
+                            <div class="timeline-date">2021 - 2022</div>
+                            <h2>Sherpur It solution</h2>
+                            <h4>Soft Agency</h4>
                             <p>
                                 Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
                             </p>
@@ -155,9 +104,9 @@
                     </div>
                     <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
                         <div class="timeline-text">
-                            <div class="timeline-date">2045 - 2050</div>
+                            <div class="timeline-date">2022 - 2023</div>
                             <h2>Web Developer</h2>
-                            <h4>Soft Agency, San Francisco, CA</h4>
+                            <h4>Ostat</h4>
                             <p>
                                 Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
                             </p>
@@ -324,7 +273,7 @@
                 <div class="owl-carousel testimonials-carousel">
                     <div class="testimonial-item">
                         <div class="testimonial-img">
-                            <img src="img/testimonial-1.jpg" alt="Image">
+                            <img src="{{ asset('assets/img/testimonial-1.jpg')}}" alt="Image">
                         </div>
                         <div class="testimonial-text">
                             <p>
@@ -336,7 +285,7 @@
                     </div>
                     <div class="testimonial-item">
                         <div class="testimonial-img">
-                            <img src="img/testimonial-2.jpg" alt="Image">
+                            <img src="{{ asset('assets/img/testimonial-2.jpg')}}" alt="Image">
                         </div>
                         <div class="testimonial-text">
                             <p>
@@ -348,7 +297,7 @@
                     </div>
                     <div class="testimonial-item">
                         <div class="testimonial-img">
-                            <img src="img/testimonial-3.jpg" alt="Image">
+                            <img src="{{ asset('assets/img/testimonial-3.jpg')}}" alt="Image">
                         </div>
                         <div class="testimonial-text">
                             <p>
@@ -375,7 +324,7 @@
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
                         <div class="team-item">
                             <div class="team-img">
-                                <img src="img/team-1.jpg" alt="Image">
+                                <img src="{{ asset('assets/img/team-1.jpg')}}" alt="Image">
                             </div>
                             <div class="team-text">
                                 <h2>Mollie Ross</h2>
@@ -395,7 +344,7 @@
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="team-item">
                             <div class="team-img">
-                                <img src="img/team-2.jpg" alt="Image">
+                                <img src="{{ asset('assets/img/team-2.jpg')}}" alt="Image">
                             </div>
                             <div class="team-text">
                                 <h2>Dylan Adams</h2>
@@ -415,7 +364,7 @@
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
                         <div class="team-item">
                             <div class="team-img">
-                                <img src="img/team-3.jpg" alt="Image">
+                                <img src="{{ asset('assets/img/team-3.jpg')}}" alt="Image">
                             </div>
                             <div class="team-text">
                                 <h2>Jennifer Page</h2>
@@ -424,10 +373,9 @@
                                     Lorem ipsum dolor sit amet consec adipis elit. Etiam accum lacus
                                 </p>
                                 <div class="team-social">
-                                    <a class="btn" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn" href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a class="btn" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn" href="https://twitter.com/MehediH02558086"><i class="fab fa-twitter"></i></a>
+                                    <a class="btn" href="https://web.facebook.com/hasan.writter/"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn" href="https://www.linkedin.com/in/mehedi-hasan-4604421a8"><i class="fab fa-linkedin-in"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -435,7 +383,7 @@
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="team-item">
                             <div class="team-img">
-                                <img src="img/team-4.jpg" alt="Image">
+                                <img src="{{ asset('assets/img/team-4.jpg')}}" alt="Image">
                             </div>
                             <div class="team-text">
                                 <h2>Josh Dunn</h2>
@@ -508,7 +456,7 @@
                     <div class="col-lg-6">
                         <div class="blog-item wow fadeInUp" data-wow-delay="0.1s">
                             <div class="blog-img">
-                                <img src="img/blog-1.jpg" alt="Blog">
+                                <img src="{{ asset('assets/img/blog-1.jpg')}}" alt="Blog">
                             </div>
                             <div class="blog-text">
                                 <h2>Lorem ipsum dolor sit amet</h2>
@@ -528,7 +476,7 @@
                     <div class="col-lg-6">
                         <div class="blog-item wow fadeInUp" data-wow-delay="0.3s">
                             <div class="blog-img">
-                                <img src="img/blog-2.jpg" alt="Blog">
+                                <img src="{{ asset('assets/img/blog-2.jpg')}}" alt="Blog">
                             </div>
                             <div class="blog-text">
                                 <h2>Lorem ipsum dolor sit amet</h2>

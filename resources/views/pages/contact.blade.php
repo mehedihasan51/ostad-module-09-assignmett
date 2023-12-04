@@ -3,7 +3,8 @@
 @section('content')
 
 
-<div class="container-fluid">
+<div class="contact wow fadeInUp" data-wow-delay="0.1s" id="contact" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+            <div class="container-fluid">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-md-4"></div>
@@ -36,6 +37,5 @@
                     </div>
                 </div>
             </div>
-
-
+        </div>
 @endsection
